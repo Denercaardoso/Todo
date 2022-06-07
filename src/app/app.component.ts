@@ -12,9 +12,9 @@ export class AppComponent {
     throw new Error('Method not implemented.');
   }
   private list = new TarefasLista("Senac", [
-    new Tarefa("Estudar HTML", "24/02/2002", "Div"),
-    new Tarefa("Estudar CSS", "24/06/2002", "flex box"),
-    new Tarefa("Estudar JAVASCRIPT", "26/06/2022", "arrow function"),
+    new Tarefa("Criar Projeto", "05/06/20200", ""),
+    new Tarefa("Projeto em andamento", "06/06/2022", ""),
+    new Tarefa("Finalizar Projeto", "07/06/2022", ""),
   ]);
   get username(): string {
     return this.list.usuario;
